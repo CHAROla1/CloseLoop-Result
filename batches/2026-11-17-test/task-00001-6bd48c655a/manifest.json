@@ -1,0 +1,12 @@
+{
+  "title": "task-00001",
+  "display_name": "rollout-L3-vla_v5-driver-checkpoint-37000（权重未记录）-l3-streetgs-adapter-0.2.1（权重未记录）-时间未记录",
+  "generated_at": "2026-11-17T11:19:55.022357+08:00",
+  "rollouts": [
+    {
+      "scene_id": "clip_M18-2_07_20251215131209_DF_f68_168",
+      "rollout_id": "2273e5e0-e232-11f1-81f2-0202160a9e56",
+      "data": "data/rollout_0000.json"
+    }
+  ]
+}
