@@ -1,6 +1,6 @@
 # CloseLoop-Result
 
-闭环评测结果仓库，仅保存可直接浏览的批量报告：HTML、报告 JSON 和网页引用的 MP4 视频。场景原始数据、`rollout.asl`、模型、日志及未引用的中间产物不放在这里。
+闭环评测结果仓库，保存两类内容：可直接浏览的批量报告（`batches/`），以及按批归档的每帧中间结果与真值自车轨迹（`perframe/`）。场景原始数据、`rollout.asl`、模型、日志及未归档的中间产物不放在这里。
 
 ## 目录
 
@@ -14,6 +14,16 @@ batches/
       manifest.json
       data/*.json
       media/rollout_*/*.mp4
+perframe/
+  <batch-id>/
+    README.md          # 字段说明与数据来源
+    mapping.csv        # task → 场景与来源映射
+    tasks/task-*/
+      ego_trajectory.csv          # 自车执行轨迹
+      planned_trajectories.jsonl  # 模型规划轨迹
+      vlm_reasoning.jsonl         # 每帧 VLM 推理
+      metrics.parquet             # 每帧指标
+      gt_ego_trajectory.json      # 场景真值自车轨迹
 ```
 
 每个 `<batch-id>` 对应一次导出的结果快照。新增或重做批次时使用新的目录名，避免覆盖已发布结果。
