@@ -1,0 +1,19 @@
+{
+  "clips_type_tsv": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/clips_type.txt",
+  "output_dir": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/results/2026-11-17-v5-scene64",
+  "extraction": {
+    "scenes_dir": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/data/scenes",
+    "samples_json": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/data/samples.json",
+    "rerun_registry_dir": "",
+    "registry_dir": "/mnt/data/VLA_Group/ynz_workspace/project/VLA_V5_driver/deploy/dlc/cluster_registry/2026-11-17-v5-scene64",
+    "output_dir": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/extracted/2026-11-17-v5-scene64"
+  },
+  "mapping_csv": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/extracted/2026-11-17-v5-scene64/mapping.csv",
+  "tasks_dir": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/extracted/2026-11-17-v5-scene64/tasks",
+  "task_files": {
+    "gt_ego_trajectory": "{task_id}/gt_ego_trajectory.json",
+    "ego_trajectory": "{task_id}/ego_trajectory.csv",
+    "metrics": "{task_id}/metrics.parquet",
+    "vlm_reasoning": "{task_id}/vlm_reasoning.jsonl"
+  }
+}
