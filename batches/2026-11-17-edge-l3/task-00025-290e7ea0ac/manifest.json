@@ -1,0 +1,12 @@
+{
+  "title": "task-00025",
+  "display_name": "rollout-L3-VLA_edge2b-checkpoint-37000-l3-streetgs-adapter-0.2.1（权重未记录）-时间未记录",
+  "generated_at": "2026-11-18T12:03:12.826632+08:00",
+  "rollouts": [
+    {
+      "scene_id": "clip_M18-2_07_20260101084225_DF_f5_105",
+      "rollout_id": "abfa9e16-e2a6-11f1-84bb-0202160a943f",
+      "data": "data/rollout_0000.json"
+    }
+  ]
+}
