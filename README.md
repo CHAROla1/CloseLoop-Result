@@ -71,3 +71,20 @@ python -m http.server 18765 --bind 0.0.0.0
 ```
 
 浏览器打开 `http://<主机地址>:18765/`。网页通过 HTTP 加载 JSON 和视频，直接双击 `index.html` 可能无法正常读取资源。
+
+## 按需拉取某个批次
+
+仓库随批次累积增大，**查看单个批次不要全量 clone**。用 partial clone + sparse-checkout，只下载所选目录：
+
+```bash
+git clone --filter=blob:none --no-checkout https://github.com/CHAROla1/CloseLoop-Result.git
+cd CloseLoop-Result
+git sparse-checkout set batches/2026-11-13-v6   # 换成想看的批次目录，可空格分隔多个
+git checkout main
+```
+
+如上例只下载 v6 批次（~224 MB），而非整个仓库。之后可 `git sparse-checkout add perframe/2026-11-13-v5` 追加目录，`git pull` 增量更新。
+
+各批次快照已打 tag（`batch/<batch-id>`、`data/<batch-id>-perframe`），可用 `git ls-remote --tags origin` 查看；要检出到某快照时 `git checkout <tag>`。
+
+注意：默认 `git clone`（不带参数）仍是全量下载。
