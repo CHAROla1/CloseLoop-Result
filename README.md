@@ -58,10 +58,15 @@ git status --short
 git add "batches/$RESULT_BATCH"
 git diff --cached --stat
 git commit -m "results: add $RESULT_BATCH"
-git push
+git tag "batch/$RESULT_BATCH"                       # 批次快照 tag，供按需拉取定位
+
+# 本机代理对大推送会 HTTP 408 超时，推送需绕过代理直连
+env -u http_proxy -u https_proxy -u HTTP_PROXY -u HTTPS_PROXY git push origin main --tags
 ```
 
-提交前检查暂存列表和视频体积。不要使用 `git add .` 把本地其他文件一起提交。
+提交前检查暂存列表和视频体积（`du -sh "batches/$RESULT_BATCH"`）。不要使用 `git add .` 把本地其他文件一起提交。
+
+若同时归档每帧数据：改 `tools/extract_perframe.py` 顶部的 `REG_V5 / REG_V6 / DST` 常量后运行，再 `git add "perframe/$RESULT_BATCH"`，tag 名用 `data/$RESULT_BATCH-perframe`。
 
 ## 本地浏览
 
