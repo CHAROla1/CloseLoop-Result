@@ -1,0 +1,342 @@
+{
+  "config": {
+    "turn_clips": [
+      "clip_M18-2_07_20251227113337_DF_f169_269",
+      "clip_M18-2_07_20251230190307_DF_f188_288",
+      "clip_M18-2_07_20260113172038_DF_f80_180",
+      "clip_M18-2_07_20260130221938_DF_f101_201",
+      "clip_M18-2_07_20260211113446_DF_f0_100",
+      "clip_M18-2_07_20260211114616_DF_f39_139",
+      "clip_M18-2_07_20260211145146_DF_f5_105",
+      "clip_M18-2_07_20251223154510_DF_f2_102",
+      "clip_M18-2_07_20251230193407_DF_f56_156",
+      "clip_M18-2_07_20260104174754_DF_f91_191",
+      "clip_M18-2_07_20260108161600_DF_f187_287",
+      "clip_M18-2_07_20260120111032_DF_f184_284",
+      "clip_M18-2_07_20260121125640_DF_f192_292",
+      "clip_M18-2_07_20260124162302_DF_f15_115"
+    ]
+  },
+  "tasks": {
+    "task-00000": {
+      "clip": "clip_M18-2_07_20251202124210_DF_f41_141",
+      "detail": "非指定转向clip"
+    },
+    "task-00001": {
+      "clip": "clip_M18-2_07_20251215131209_DF_f68_168",
+      "detail": "非指定转向clip"
+    },
+    "task-00002": {
+      "clip": "clip_M18-2_07_20251215133209_DF_f179_279",
+      "detail": "非指定转向clip"
+    },
+    "task-00003": {
+      "clip": "clip_M18-2_07_20251219120919_DF_f1_101",
+      "detail": "非指定转向clip"
+    },
+    "task-00004": {
+      "clip": "clip_M18-2_07_20251220162525_DF_f145_245",
+      "detail": "非指定转向clip"
+    },
+    "task-00005": {
+      "clip": "clip_M18-2_07_20251221164406_DF_f133_233",
+      "detail": "非指定转向clip"
+    },
+    "task-00006": {
+      "clip": "clip_M18-2_07_20251223104156_DF_f114_214",
+      "detail": "非指定转向clip"
+    },
+    "task-00007": {
+      "clip": "clip_M18-2_07_20251223142254_DF_f30_130",
+      "detail": "非指定转向clip"
+    },
+    "task-00008": {
+      "clip": "clip_M18-2_07_20251223160440_DF_f114_214",
+      "detail": "非指定转向clip"
+    },
+    "task-00009": {
+      "clip": "clip_M18-2_07_20251227115007_DF_f138_238",
+      "detail": "非指定转向clip"
+    },
+    "task-00010": {
+      "clip": "clip_M18-2_07_20251227120037_DF_f59_159",
+      "detail": "非指定转向clip"
+    },
+    "task-00011": {
+      "clip": "clip_M18-2_07_20251227121307_DF_f193_293",
+      "detail": "非指定转向clip"
+    },
+    "task-00012": {
+      "clip": "clip_M18-2_07_20251227121407_DF_f6_106",
+      "detail": "非指定转向clip"
+    },
+    "task-00013": {
+      "clip": "clip_M18-2_07_20251227122407_DF_f139_239",
+      "detail": "非指定转向clip"
+    },
+    "task-00014": {
+      "clip": "clip_M18-2_07_20251230183007_DF_f133_233",
+      "detail": "非指定转向clip"
+    },
+    "task-00015": {
+      "clip": "clip_M18-2_07_20251230184537_DF_f183_283",
+      "detail": "非指定转向clip"
+    },
+    "task-00016": {
+      "clip": "clip_M18-2_07_20251230190307_DF_f188_288",
+      "detail": {
+        "start_s": 1.200001,
+        "deadline_s": 9.900001,
+        "gt_peak_angle_deg": -20.050382766421798,
+        "ego_peak_angle_deg": -19.525518482026023,
+        "gt_end_angle_deg": -20.050382766421798,
+        "ego_end_angle_deg": -19.525518482026023,
+        "returning_toward_initial_heading": false
+      }
+    },
+    "task-00017": {
+      "clip": "clip_M18-2_07_20251230193207_DF_f26_126",
+      "detail": "非指定转向clip"
+    },
+    "task-00018": {
+      "clip": "clip_M18-2_07_20251230193337_DF_f130_230",
+      "detail": "非指定转向clip"
+    },
+    "task-00019": {
+      "clip": "clip_M18-2_07_20251230193407_DF_f56_156",
+      "detail": {
+        "start_s": 1.200001,
+        "deadline_s": 10.000001,
+        "gt_peak_angle_deg": 64.04487264860866,
+        "ego_peak_angle_deg": 96.81670225677293,
+        "gt_end_angle_deg": 53.546897058350375,
+        "ego_end_angle_deg": 96.81670225677293,
+        "returning_toward_initial_heading": true
+      }
+    },
+    "task-00020": {
+      "clip": "clip_M18-2_07_20251230215737_DF_f179_279",
+      "detail": "非指定转向clip"
+    },
+    "task-00021": {
+      "clip": "clip_M18-2_07_20251231124323_DF_f0_100",
+      "detail": "非指定转向clip"
+    },
+    "task-00022": {
+      "clip": "clip_M18-2_07_20251231162207_DF_f191_291",
+      "detail": "非指定转向clip"
+    },
+    "task-00023": {
+      "clip": "clip_M18-2_07_20251231170037_DF_f164_264",
+      "detail": "非指定转向clip"
+    },
+    "task-00024": {
+      "clip": "clip_M18-2_07_20260101081125_DF_f189_289",
+      "detail": "非指定转向clip"
+    },
+    "task-00025": {
+      "clip": "clip_M18-2_07_20260101084225_DF_f5_105",
+      "detail": "非指定转向clip"
+    },
+    "task-00026": {
+      "clip": "clip_M18-2_07_20260104144424_DF_f3_103",
+      "detail": "非指定转向clip"
+    },
+    "task-00027": {
+      "clip": "clip_M18-2_07_20260104174754_DF_f91_191",
+      "detail": {
+        "start_s": 1.200001,
+        "deadline_s": 10.000001,
+        "gt_peak_angle_deg": -6.805451555683245,
+        "ego_peak_angle_deg": -4.718983295690135,
+        "gt_end_angle_deg": -6.805451555683245,
+        "ego_end_angle_deg": -1.5714966302274118,
+        "returning_toward_initial_heading": false
+      }
+    },
+    "task-00028": {
+      "clip": "clip_M18-2_07_20260104180554_DF_f63_163",
+      "detail": "非指定转向clip"
+    },
+    "task-00029": {
+      "clip": "clip_M18-2_07_20260104183624_DF_f0_100",
+      "detail": "非指定转向clip"
+    },
+    "task-00030": {
+      "clip": "clip_M18-2_07_20260104191524_DF_f195_295",
+      "detail": "非指定转向clip"
+    },
+    "task-00031": {
+      "clip": "clip_M18-2_07_20260104195454_DF_f42_142",
+      "detail": "非指定转向clip"
+    },
+    "task-00032": {
+      "clip": "clip_M18-2_07_20260105150846_DF_f0_100",
+      "detail": "非指定转向clip"
+    },
+    "task-00033": {
+      "clip": "clip_M18-2_07_20260107180637_DF_f189_289",
+      "detail": "非指定转向clip"
+    },
+    "task-00034": {
+      "clip": "clip_M18-2_07_20260108155930_DF_f140_240",
+      "detail": "非指定转向clip"
+    },
+    "task-00035": {
+      "clip": "clip_M18-2_07_20260108161600_DF_f187_287",
+      "detail": {
+        "start_s": 1.200001,
+        "deadline_s": 9.900001,
+        "gt_peak_angle_deg": -46.20480255022681,
+        "ego_peak_angle_deg": -38.773620904011324,
+        "gt_end_angle_deg": -46.20480255022681,
+        "ego_end_angle_deg": -38.773620904011324,
+        "returning_toward_initial_heading": false
+      }
+    },
+    "task-00036": {
+      "clip": "clip_M18-2_07_20260108185400_DF_f120_220",
+      "detail": "非指定转向clip"
+    },
+    "task-00037": {
+      "clip": "clip_M18-2_07_20260108225418_DF_f43_143",
+      "detail": "非指定转向clip"
+    },
+    "task-00038": {
+      "clip": "clip_M18-2_07_20260109085714_DF_f169_269",
+      "detail": "非指定转向clip"
+    },
+    "task-00039": {
+      "clip": "clip_M18-2_07_20260111111259_DF_f35_135",
+      "detail": "非指定转向clip"
+    },
+    "task-00040": {
+      "clip": "clip_M18-2_07_20260112162553_DF_f114_214",
+      "detail": "非指定转向clip"
+    },
+    "task-00041": {
+      "clip": "clip_M18-2_07_20260112172323_DF_f180_280",
+      "detail": "非指定转向clip"
+    },
+    "task-00042": {
+      "clip": "clip_M18-2_07_20260112212553_DF_f14_114",
+      "detail": "非指定转向clip"
+    },
+    "task-00043": {
+      "clip": "clip_M18-2_07_20260113172038_DF_f181_281",
+      "detail": "非指定转向clip"
+    },
+    "task-00044": {
+      "clip": "clip_M18-2_07_20260113172038_DF_f80_180",
+      "detail": {
+        "start_s": 1.200001,
+        "deadline_s": 10.000001,
+        "gt_peak_angle_deg": 29.701447112240828,
+        "ego_peak_angle_deg": 34.013033064476495,
+        "gt_end_angle_deg": 29.701447112240828,
+        "ego_end_angle_deg": 34.013033064476495,
+        "returning_toward_initial_heading": false
+      }
+    },
+    "task-00045": {
+      "clip": "clip_M18-2_07_20260120111032_DF_f184_284",
+      "detail": {
+        "start_s": 1.200001,
+        "deadline_s": 9.900001,
+        "gt_peak_angle_deg": -8.087507317314223,
+        "ego_peak_angle_deg": -6.751653833028416,
+        "gt_end_angle_deg": -8.087507317314223,
+        "ego_end_angle_deg": -6.7433149439216775,
+        "returning_toward_initial_heading": false
+      }
+    },
+    "task-00046": {
+      "clip": "clip_M18-2_07_20260120123132_DF_f109_209",
+      "detail": "非指定转向clip"
+    },
+    "task-00047": {
+      "clip": "clip_M18-2_07_20260120160046_DF_f101_201",
+      "detail": "非指定转向clip"
+    },
+    "task-00048": {
+      "clip": "clip_M18-2_07_20260120194139_DF_f0_100",
+      "detail": "非指定转向clip"
+    },
+    "task-00049": {
+      "clip": "clip_M18-2_07_20260120194139_DF_f101_201",
+      "detail": "非指定转向clip"
+    },
+    "task-00050": {
+      "clip": "clip_M18-2_07_20260120201839_DF_f101_201",
+      "detail": "非指定转向clip"
+    },
+    "task-00051": {
+      "clip": "clip_M18-2_07_20260120211309_DF_f1_101",
+      "detail": "非指定转向clip"
+    },
+    "task-00052": {
+      "clip": "clip_M18-2_07_20260121125640_DF_f192_292",
+      "detail": {
+        "start_s": 1.200001,
+        "deadline_s": 10.000001,
+        "gt_peak_angle_deg": -5.329256799101477,
+        "ego_peak_angle_deg": -1.0642339304828172,
+        "gt_end_angle_deg": -5.329256799101477,
+        "ego_end_angle_deg": 1.3769747314212228,
+        "returning_toward_initial_heading": false
+      }
+    },
+    "task-00053": {
+      "clip": "clip_M18-2_07_20260121153510_DF_f101_201",
+      "detail": "非指定转向clip"
+    },
+    "task-00054": {
+      "clip": "clip_M18-2_07_20260121205057_DF_f0_100",
+      "detail": "非指定转向clip"
+    },
+    "task-00055": {
+      "clip": "clip_M18-2_07_20260122173752_DF_f95_195",
+      "detail": "非指定转向clip"
+    },
+    "task-00056": {
+      "clip": "clip_M18-2_07_20260124161732_DF_f20_120",
+      "detail": "非指定转向clip"
+    },
+    "task-00057": {
+      "clip": "clip_M18-2_07_20260124162302_DF_f15_115",
+      "detail": {
+        "start_s": 1.200001,
+        "deadline_s": 9.900001,
+        "gt_peak_angle_deg": -5.229456296194269,
+        "ego_peak_angle_deg": -4.033721055345781,
+        "gt_end_angle_deg": -1.0771578445194157,
+        "ego_end_angle_deg": -2.983717534529375,
+        "returning_toward_initial_heading": true
+      }
+    },
+    "task-00058": {
+      "clip": "clip_M18-2_07_20260124175132_DF_f0_100",
+      "detail": "非指定转向clip"
+    },
+    "task-00059": {
+      "clip": "clip_M18-2_07_20260211110046_DF_f121_221",
+      "detail": "非指定转向clip"
+    },
+    "task-00060": {
+      "clip": "clip_M18-2_07_20260211114616_DF_f39_139",
+      "detail": {
+        "start_s": 1.200001,
+        "deadline_s": 10.000001,
+        "gt_peak_angle_deg": 26.922164017679513,
+        "ego_peak_angle_deg": 22.168020819034936,
+        "gt_end_angle_deg": 26.922164017679513,
+        "ego_end_angle_deg": 22.168020819034936,
+        "returning_toward_initial_heading": false
+      }
+    },
+    "task-00061": {
+      "clip": "clip_M18-2_07_20260211132346_DF_f76_176",
+      "detail": "非指定转向clip"
+    }
+  }
+}
