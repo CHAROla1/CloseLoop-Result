@@ -1,0 +1,19 @@
+{
+  "mapping_csv": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/extracted/2026-11-17-edge2b-64-l3/mapping.csv",
+  "tasks_dir": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/extracted/2026-11-17-edge2b-64-l3/tasks",
+  "output_dir": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/results/2026-11-17-edge2b-64-l3",
+  "extraction": {
+    "registry_dir": "/mnt/workspace/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/cluster_config/cluster_registry/2026-11-17-edge2b-64-l3",
+    "rerun_registry_dir": "",
+    "scenes_dir": "/mnt/workspace/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/data/scenes",
+    "samples_json": "/mnt/workspace/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/data/samples.json",
+    "output_dir": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/extracted/2026-11-17-edge2b-64-l3"
+  },
+  "clips_type_tsv": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/clips_type.txt",
+  "task_files": {
+    "gt_ego_trajectory": "{task_id}/gt_ego_trajectory.json",
+    "ego_trajectory": "{task_id}/ego_trajectory.csv",
+    "metrics": "{task_id}/metrics.parquet",
+    "vlm_reasoning": "{task_id}/vlm_reasoning.jsonl"
+  }
+}
