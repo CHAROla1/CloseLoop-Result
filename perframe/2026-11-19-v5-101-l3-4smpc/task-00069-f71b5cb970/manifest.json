@@ -1,0 +1,14 @@
+{
+  "title": "task-00069",
+  "display_name": "rollout-L3-VLA_V5-checkpoint-37000-l3-streetgs-adapter-0.2.1（权重未记录）-时间未记录",
+  "source_path": "/mnt/workspace/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/cluster_config/cluster_registry/2026-11-19-v5-101-l3/runs/task-00069",
+  "generated_at": "2026-11-20T13:03:00.301903+08:00",
+  "rollouts": [
+    {
+      "partial_result": null,
+      "scene_id": "clip_M18-2_07_20260121163040_DF_f7_107",
+      "rollout_id": "01693c3c-e431-11f1-8924-0202160a9eb2",
+      "data": "data/rollout_0000.json"
+    }
+  ]
+}
