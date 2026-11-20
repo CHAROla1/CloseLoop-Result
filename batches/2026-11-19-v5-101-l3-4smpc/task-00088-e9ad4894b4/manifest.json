@@ -1,0 +1,38 @@
+{
+  "title": "task-00088",
+  "display_name": "rollout-L3-VLA_V5-checkpoint-37000-l3-streetgs-adapter-0.2.1（权重未记录）-时间未记录",
+  "generated_at": "2026-11-20T12:44:51.738937+08:00",
+  "rollouts": [
+    {
+      "partial_result": {
+        "schema": "alpasim-partial-result/v1",
+        "result_status": "partial_failed",
+        "original_exit_code": 1,
+        "finalization_status": "completed",
+        "artifacts": {
+          "metrics": "metrics.parquet",
+          "evaluation_video": "generated",
+          "camera_videos": [
+            "rollout_asl_frames/camera_cross_left_120fov.mp4",
+            "rollout_asl_frames/camera_cross_right_120fov.mp4",
+            "rollout_asl_frames/camera_front_tele_30fov.mp4",
+            "rollout_asl_frames/camera_front_wide_120fov.mp4",
+            "rollout_asl_frames/camera_rear_left_70fov.mp4",
+            "rollout_asl_frames/camera_rear_right_70fov.mp4",
+            "rollout_asl_frames/camera_rear_tele_30fov.mp4"
+          ]
+        },
+        "errors": {},
+        "coverage": {
+          "start_us": 1,
+          "end_us": 8100001,
+          "duration_s": 8.1,
+          "ego_pose_count": 82
+        }
+      },
+      "scene_id": "clip_M18-2_07_20260130221138_DF_f89_189",
+      "rollout_id": "3a4ec0b6-e487-11f1-b43d-0202160a9145",
+      "data": "data/rollout_0000.json"
+    }
+  ]
+}
