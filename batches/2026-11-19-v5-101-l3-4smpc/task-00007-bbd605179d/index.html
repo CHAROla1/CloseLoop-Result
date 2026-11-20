@@ -210,6 +210,7 @@ async function exportReplayFrames({canvas,videos,duration,draw,onprogress,signal
    if(duration-v.duration>0.100001)throw Error(`源视频比报告短 ${(duration-v.duration).toFixed(3)} 秒（允许最多 0.1 秒）：${v.src}`);
   }
   onprogress(0,'视频已就绪，正在启动编码…');
+  draw(0);
   stream=canvas.captureStream(0);track=stream.getVideoTracks()[0];
   if(!track?.requestFrame)throw Error('浏览器不支持手动提交视频帧');
   recorder=new MediaRecorder(stream,{mimeType:mime,videoBitsPerSecond:10000000});
@@ -230,7 +231,7 @@ async function exportReplayFrames({canvas,videos,duration,draw,onprogress,signal
    }));
    await visible();check();
    // Resume only after every source has finished seeking. No video is played.
-   if(!started){const ready=waitEvent(recorder,'start');recorder.start();await ready;started=true}
+   if(!started){const ready=waitEvent(recorder,'start');recorder.start();draw(t);track.requestFrame();await ready;started=true}
    else if(recorder.state==='paused'){const ready=waitEvent(recorder,'resume');recorder.resume();await ready}
    if(document.hidden){i--;continue}
    draw(t);track.requestFrame();
