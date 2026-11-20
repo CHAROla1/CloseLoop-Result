@@ -1,0 +1,12 @@
+[
+  {
+    "task_id": "task-00062",
+    "sample": "clip_M18-2_07_20260211143116_DF_f59_159",
+    "reason": "缺少文件: /mnt/data/VLA_Group/ynz_workspace/project/VLA_V5_driver/deploy/dlc/cluster_registry/2026-11-17-v5-scene64/runs/task-00062/rollout/rollouts/*/*/vlm_reasoning.jsonl"
+  },
+  {
+    "task_id": "task-00063",
+    "sample": "clip_M18-2_07_20260211144546_DF_f83_183",
+    "reason": "缺少文件: /mnt/data/VLA_Group/ynz_workspace/project/VLA_V5_driver/deploy/dlc/cluster_registry/2026-11-17-v5-scene64/runs/task-00063/rollout/rollouts/*/*/vlm_reasoning.jsonl"
+  }
+]
