@@ -1,6 +1,6 @@
 {
   "title": "task-00019",
-  "display_name": "rollout-L3-VLA_V5-checkpoint-37000-l3-streetgs-adapter-0.2.1（权重未记录）-时间未记录",
+  "display_name": "task-00019-L3-VLA_V5-checkpoint-37000-streetgs-时间未记录",
   "generated_at": "2026-11-20T13:54:24.105567+08:00",
   "rollouts": [
     {
@@ -9,5 +9,7 @@
       "rollout_id": "db1f435c-e406-11f1-adf1-0202160a9eb2",
       "data": "data/rollout_0000.json"
     }
-  ]
+  ],
+  "dataset_name": "L3",
+  "renderer_model": "streetgs"
 }
