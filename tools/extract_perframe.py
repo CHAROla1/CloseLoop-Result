@@ -18,7 +18,7 @@ import json
 import os
 import shutil
 
-SRC = "/mnt/workspace/WM_Group/tang-workspace/alpasim_render_bk/Alpasim_WorldModel_ClosedLoop"
+SRC = "/mnt/workspace/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop"
 REG_V5 = f"{SRC}/cluster_config/cluster_registry/2026-11-13-v5"
 REG_V6 = f"{SRC}/cluster_config/cluster_registry/2026-11-13-v6"
 DST = "/mnt/workspace/WM_Group/tang-workspace/CloseLoop-Result/perframe/2026-11-13-v5"
