@@ -1,0 +1,298 @@
+{
+  "version": "asl-metrics-v1",
+  "groups": {
+    "no_traffic_updates": {
+      "long_acc_abs_p95": {
+        "unit": "m/s²",
+        "valid": 86,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 86,
+          "mean": 1.1798201912191022,
+          "median": 1.1150462895631787,
+          "p95": 2.1807938396930693,
+          "minimum": 0.1630566418170929,
+          "maximum": 2.6034413814544677
+        }
+      },
+      "lat_acc_abs_p95": {
+        "unit": "m/s²",
+        "valid": 86,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 86,
+          "mean": 0.03487083818004699,
+          "median": 0.022347439685836426,
+          "p95": 0.12017771219834662,
+          "minimum": 2.296507745995759e-05,
+          "maximum": 0.3833501815795897
+        }
+      },
+      "yaw_acc_abs_max": {
+        "unit": "rad/s²",
+        "valid": 86,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 86,
+          "mean": 0.5394222692465159,
+          "median": 0.3305126279592514,
+          "p95": 1.5581201314926147,
+          "minimum": 0.00010214995563728735,
+          "maximum": 3.922285795211792
+        }
+      },
+      "long_jerk_rms": {
+        "unit": "m/s³",
+        "valid": 86,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 86,
+          "mean": 3.9020890827999257,
+          "median": 3.863062439868669,
+          "p95": 5.402778359412045,
+          "minimum": 1.1511918029972636,
+          "maximum": 6.083552740544654
+        }
+      },
+      "lat_jerk_rms": {
+        "unit": "m/s³",
+        "valid": 86,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 86,
+          "mean": 0.27847864744004536,
+          "median": 0.19648453554116446,
+          "p95": 0.6558304991664474,
+          "minimum": 0.0010252880693198904,
+          "maximum": 3.276950806861992
+        }
+      },
+      "duration_s": {
+        "unit": "s",
+        "valid": 86,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 86,
+          "mean": 8.347674418604651,
+          "median": 8.3,
+          "p95": 8.4,
+          "minimum": 8.3,
+          "maximum": 8.4
+        }
+      },
+      "body_gap_min": {
+        "unit": "m",
+        "valid": 0,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 86,
+        "distribution": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "following_thw_min": {
+        "unit": "s",
+        "valid": 0,
+        "estimated": 56,
+        "invalid": 0,
+        "not_applicable": 30,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 56,
+          "mean": 2.008173870975373,
+          "median": 1.9746445233261953,
+          "p95": 4.693213853097636,
+          "minimum": 0.0,
+          "maximum": 7.889181497266381
+        }
+      },
+      "rear_long_acc_min": {
+        "unit": "m/s²",
+        "valid": 0,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 86,
+        "distribution": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "minimum": null,
+          "maximum": null
+        }
+      }
+    },
+    "unknown": {
+      "long_acc_abs_p95": {
+        "unit": "m/s²",
+        "valid": 0,
+        "estimated": 0,
+        "invalid": 15,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "lat_acc_abs_p95": {
+        "unit": "m/s²",
+        "valid": 0,
+        "estimated": 0,
+        "invalid": 15,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "yaw_acc_abs_max": {
+        "unit": "rad/s²",
+        "valid": 0,
+        "estimated": 0,
+        "invalid": 15,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "long_jerk_rms": {
+        "unit": "m/s³",
+        "valid": 0,
+        "estimated": 0,
+        "invalid": 15,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "lat_jerk_rms": {
+        "unit": "m/s³",
+        "valid": 0,
+        "estimated": 0,
+        "invalid": 15,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "duration_s": {
+        "unit": "s",
+        "valid": 0,
+        "estimated": 0,
+        "invalid": 15,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "body_gap_min": {
+        "unit": "m",
+        "valid": 0,
+        "estimated": 0,
+        "invalid": 15,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "following_thw_min": {
+        "unit": "s",
+        "valid": 0,
+        "estimated": 0,
+        "invalid": 15,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "rear_long_acc_min": {
+        "unit": "m/s²",
+        "valid": 0,
+        "estimated": 0,
+        "invalid": 15,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "minimum": null,
+          "maximum": null
+        }
+      }
+    }
+  },
+  "tasks": 101
+}

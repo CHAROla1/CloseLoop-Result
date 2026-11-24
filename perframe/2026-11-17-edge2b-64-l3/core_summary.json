@@ -1,0 +1,15 @@
+{
+  "expected_tasks": 64,
+  "metric_tasks": 64,
+  "passed_tasks": 33,
+  "completion_rate": 0.515625,
+  "safety_rate": 0.921875,
+  "safety_evaluable": 64,
+  "average_progress": 0.9173125,
+  "route_rmse_full": 2.829903171875,
+  "speed_ratio": 1.101933484375,
+  "speed_evaluable": 64,
+  "incomplete_records": 0,
+  "missing_tasks": 0,
+  "completion_progress_threshold": 0.95
+}
